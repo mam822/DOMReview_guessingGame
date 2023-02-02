@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
-    <h1>> Guessing Game</h1>
+<h1> Guessing Game</h1>
+<br>
+<h2>Directions go here!</h2>
+<!-- number guess goes here in input and guess button -->
+<input type="text" id = "inputText"> </input>
+<input type="submit" value = "Guess!" id="submitButton"> </input>
+<!--guess list w 5 guess spots to record previous guess-->
+<div id="guesses">
+    <ul id="guess-list">
+       <li class="guess1"> - </li>
+       <li class="guess2"> - </li>
+       <li class="guess3"> - </li>
+       <li class="guess4"> - </li>
+       <li class="guess5"> - </li>
+    </ul>
+    <h3 id= "hint"> Hints placeholder </h3>
+</div>
 
-<!--instructions 
-    
-guessing area text input 
-
-text display to show previous guesses
-
-feedback on last guesses  
-
-BUTTONS-->
-    
 </body>
 </html>
